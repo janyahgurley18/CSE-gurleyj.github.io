@@ -6,3 +6,15 @@ h1 {
     text-align: center;
     color:floralwhite;
 }
+.projects { 
+    display:flex; 
+    flex-wrap:wrap;  
+    width: 20%;
+}
+.project {
+width: 20%;
+margin: 10px;
+padding: 20px 10px;
+background: rgb(41, 152, 255); /*pick a color */
+border-radius: 25%;
+}
