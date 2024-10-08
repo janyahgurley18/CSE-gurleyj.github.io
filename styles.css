@@ -6,10 +6,11 @@ h1 {
     text-align: center;
     color:floralwhite;
 }
+
 .projects { 
     display:flex; 
     flex-wrap:wrap;  
-    width: 20%;
+
 }
 .project {
 width: 20%;
