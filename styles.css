@@ -10,12 +10,22 @@ h1 {
 .projects { 
     display:flex; 
     flex-wrap:wrap;  
+} /* condensed to save space */
 
-}
+
 .project {
-width: 20%;
+width: 30%;
 margin: 10px;
 padding: 20px 10px;
 background: rgb(41, 152, 255); /*pick a color */
 border-radius: 25;
+}
+.project img{
+    width: 300px;
+    /*height: 300px; */
+    margin: 10px;
+    border: 2px solid rbg(126, 14, 201); /* choose a color */
+    display: block;
+    margin: auto;
+
 }
